@@ -1,0 +1,27 @@
+.social {
+    list-style: none;
+    display: inline-flex;
+    margin-top: 16px;
+    gap: 10px;
+    padding-left: 0;
+}
+
+.social__link {
+    display: inline-flex;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    fill: $icon-color;
+
+    transition: background-color 250ms $time-function,
+    fill 250ms $time-function;
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+        fill: $secondary-color;
+    }              
+}

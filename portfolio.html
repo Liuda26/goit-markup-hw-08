@@ -19,21 +19,37 @@
     <div class="container head-nav">
         <nav class="nav">
             <a href="./index.html" class="nav__logo"><span class="nav__accent">Web</span>Studio</a>
+           
             <ul class="site-nav">
-                <li class="site-nav__item"> <a href="./index.html" class="site-nav__link">Студія</a></li>
-                <li class="site-nav__item"> <a href="./portfolio.html" class="site-nav__link current">Портфоліо</a></li>
-                <li class="site-nav__item"> <a href="./contacts.html" class="site-nav__link">Контакти</a></li>
-                </ul>
-            </nav>
+                <li class="site-nav__item">
+                    <a href="./index.html" class="site-nav__link current">Студія</a>
+                </li>
+                <li class="site-nav__item">
+                    <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
+                </li>
+                <li class="site-nav__item">
+                    <a href="./contacts.html" class="site-nav__link">Контакти</a>
+                </li>
+            </ul>
+        </nav>
         <ul class="auth-nav">
             <li class="auth-nav__item">
-                <a href="mailto:info@devstudio.com" class="auth-nav__link"><svg class="auth-nav__envelope" width="16" height="12"><use href="./images/icons.svg#envelope"></use></svg>info@devstudio.com</a>
+                <a href="mailto:info@devstudio.com" class="auth-nav__link">
+                    <svg class="auth-nav__envelope" width="16" height="12">
+                        <use href="./images/icons.svg#envelope"></use>
+                    </svg>info@devstudio.com</a>
             </li>
            
             <li class="auth-nav__item">
                 <a href="tel:+380961111111" class="auth-nav__link"><svg class="auth-nav__smartphone" width="10" height="16"><use href="./images/icons.svg#smartphone"></use></svg>+38 096 111 11 11</a>
             </li>
         </ul>
+        <button type="button" class="menu-button is-open" aria-expanded="false" data-menu-button>
+            <svg class="auth-nav__envelope" width="40" height="40" aria-label="Перемикач мобільного меню">
+                <use class="icon-menu" href="./images/icons.svg#menu"></use>
+                <use class="close-menu" href="./images/icons.svg#close-menu"></use>
+            </svg>
+        </button>
     </div>
 </header>
 
@@ -53,7 +69,7 @@
             <li class="gallery">
                 <a class="gallery__link" href="">
                     <div class="gallery__img">
-                        <img src="./images/portfolio_1.jpg" alt="Ноутбук" width="370">
+                        <img class="photo__img" src="./images/portfolio_1.jpg" alt="Ноутбук">
                         <div class="gallery__overlay">
                             <p class="gallery__text">
                                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить відвідувачу отримати
@@ -72,7 +88,7 @@
             <li class="gallery">
                 <a class="gallery__link" href="">
                     <div class="gallery__img">
-                        <img src="./images/portfolio_2.jpg" alt="Ноутбук" width="370">
+                        <img class="photo__img" src="./images/portfolio_2.jpg" alt="Ноутбук">
                         <div class="gallery__overlay">
                             <p class="gallery__text">
                                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -92,7 +108,7 @@
             <li class="gallery">
                 <a class="gallery__link" href="">
                     <div class="gallery__img">
-                        <img src="./images/portfolio_3.jpg" alt="Ноутбук" width="370">
+                        <img class="photo__img" src="./images/portfolio_3.jpg" alt="Ноутбук">
                         <div class="gallery__overlay">
                             <p class="gallery__text">
                                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -112,7 +128,7 @@
             <li class="gallery">
                 <a class="gallery__link" href="">
                     <div class="gallery__img">
-                        <img src="./images/portfolio_4.jpg" alt="Ноутбук" width="370">
+                        <img class="photo__img" src="./images/portfolio_4.jpg" alt="Ноутбук">
                         <div class="gallery__overlay">
                             <p class="gallery__text">
                                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -132,7 +148,7 @@
             <li class="gallery">
                 <a class="gallery__link" href="">
                     <div class="gallery__img">
-                        <img src="./images/portfolio_5.jpg" alt="Ноутбук" width="370">
+                        <img class="photo__img" src="./images/portfolio_5.jpg" alt="Ноутбук">
                         <div class="gallery__overlay">
                             <p class="gallery__text">
                                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -152,7 +168,7 @@
             <li class="gallery">
                 <a class="gallery__link" href="">
                     <div class="gallery__img">
-                        <img src="./images/portfolio_6.jpg" alt="Ноутбук" width="370">
+                        <img class="photo__img" src="./images/portfolio_6.jpg" alt="Ноутбук">
                         <div class="gallery__overlay">
                             <p class="gallery__text">
                                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -172,7 +188,7 @@
             <li class="gallery">
                 <a class="gallery__link" href="">
                     <div class="gallery__img">
-                        <img src="./images/portfolio_7.jpg" alt="Ноутбук" width="370">
+                        <img class="photo__img" src="./images/portfolio_7.jpg" alt="Ноутбук">
                         <div class="gallery__overlay">
                             <p class="gallery__text">
                                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -192,7 +208,7 @@
             <li class="gallery">
                 <a class="gallery__link" href="">
                     <div class="gallery__img">
-                        <img src="./images/portfolio_8.jpg" alt="Ноутбук" width="370">
+                        <img class="photo__img" src="./images/portfolio_8.jpg" alt="Ноутбук">
                         <div class="gallery__overlay">
                             <p class="gallery__text">
                                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
@@ -212,7 +228,7 @@
             <li class="gallery">
                 <a class="gallery__link" href="">
                     <div class="gallery__img">
-                        <img src="./images/portfolio_9.jpg" alt="Ноутбук" width="370">
+                        <img class="photo__img" src="./images/portfolio_9.jpg" alt="Ноутбук">
                         <div class="gallery__overlay">
                             <p class="gallery__text">
                                 Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить

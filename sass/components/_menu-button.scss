@@ -6,14 +6,14 @@
     background-color: transparent;
 }
 
-.menu-button .close-menu {
+.menu-button__close-menu {
     display: none;
 }
 
-.menu-button.is-open .icon-menu {
+.menu-button.is-open .menu-button__icon-menu {
     display: block;
 }
 
-.menu-button.is-open .close-menu {
+.menu-button.is-open .menu-button__close-menu {
     display: none;
 }

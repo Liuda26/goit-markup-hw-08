@@ -83,6 +83,11 @@ body.modal-open {
   border: 0;
   background-color: transparent;
 }
+@media screen and (min-width: 768px) {
+  .menu-button {
+    display: none;
+  }
+}
 
 .menu-button__close-menu {
   display: none;
@@ -96,9 +101,20 @@ body.modal-open {
   display: none;
 }
 
+@media screen and (max-width: 767px) {
+  .menu-container {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+  }
+}
+
 .header {
   background-color: #FFFFFF;
   border-bottom: 1px solid #ECECEC;
+  position: relative;
 }
 
 .container {
@@ -135,14 +151,6 @@ body.modal-open {
 
 .nav__accent {
   color: #2196F3;
-}
-
-.site-nav {
-  display: none;
-}
-
-.auth-nav {
-  display: none;
 }
 
 .hero {
@@ -616,6 +624,11 @@ body.modal-open {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   background-color: #FFFFFF;
+}
+@media (min-width: 1200px) {
+  .modal {
+    width: 528px;
+  }
 }
 
 .modal__close {

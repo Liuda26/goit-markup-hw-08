@@ -30,6 +30,10 @@
     border-radius: 4px;
 
     background-color: $secondary-color;
+
+    @media (min-width: 1200px) {
+        width: 528px;
+    }
 }
 
 .modal__close {

@@ -5,6 +5,9 @@
 }
 
 .box-first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-bottom: 60px;
 }
 
@@ -32,6 +35,12 @@
 .footer-list {
     list-style: none;
     padding-left: 0;
+}
+
+.footer-list__add {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-list__add:not(:last-child) {
@@ -140,6 +149,11 @@
 
 .footer-field__btn {
     display: flex;
+    align-items: center;
+
+    margin-left: auto;
+    margin-right: auto;
+    
     min-width: 200px;
     height: 50px;
     padding: 10px 28px;
@@ -148,9 +162,6 @@
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.06em;
-
-    align-items: center;
-    text-align: center;
     cursor: pointer;
 
     background: $accent-color;

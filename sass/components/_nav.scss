@@ -1,1 +1,23 @@
+.open-menu {
+    margin-left: auto;
+    margin: 0;
+    padding: 10px 0;
+    border: 0;
+    background-color: transparent;
 
+    &:focus {
+        fill: $accent-color;
+    }
+
+    @media screen and (min-width: 768px) {
+        display: none;
+    }
+}
+
+.site-nav {
+    display: none;
+}
+
+.auth-nav {
+    display: none;
+}

@@ -902,7 +902,11 @@ body.modal-open {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
-  text-align: center;
+}
+@media screen and (max-width: 1199px) {
+  .footer-title {
+    text-align: center;
+  }
 }
 
 .footer-social {

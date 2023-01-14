@@ -94,7 +94,9 @@
     }
 
     @media screen and (min-width: 768px) {
-        display: block;  
+        display: block; 
+        padding-top: 21px;
+        padding-bottom: 21px; 
     }
 
     @media screen and (min-width: 1200px) {
@@ -102,8 +104,17 @@
     }
 }
 
+.auth-nav__item {
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 0;
+    }
+}
+
 .auth-nav__item:not(:last-child) {
-    margin-bottom: 10px;
+    @media screen and (max-width: 1199px) {
+        margin-bottom: 10px; 
+    }
+    
 
     @media screen and (min-width: 1200px) {
         margin-right: 50px; 
@@ -135,6 +146,8 @@
         font-size: 14px;
         line-height: 1.14;
         justify-content: center;
+        padding: 32px 0;
+        margin-bottom: 0;
     }
 }
 

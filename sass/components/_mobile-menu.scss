@@ -12,7 +12,8 @@
 }
 
 .mobile-menu.is-open {
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
 .close-menu {
@@ -34,7 +35,6 @@
 
 .mobile-site {
     margin-top: 0;
-    margin-bottom: 306px;
     padding-left: 0;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .mobile-contacts {
-    margin-top: 0;
+    margin-top: auto;
     margin-bottom: 64px;
     padding-left: 0;
 

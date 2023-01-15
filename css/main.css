@@ -7,7 +7,6 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 480px;
   padding: 0 15px;
 }
 @media screen and (min-width: 480px) {
@@ -238,7 +237,8 @@ body.modal-open {
 }
 @media screen and (min-width: 768px) {
   .nav__logo {
-    padding: 26px 0;
+    padding-top: 24px;
+    padding-bottom: 25px;
   }
 }
 
@@ -354,6 +354,8 @@ body.modal-open {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
   }
 }
 
@@ -404,7 +406,6 @@ body.modal-open {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    padding: 32px 0;
     margin-bottom: 0;
   }
 }
@@ -477,6 +478,9 @@ body.modal-open {
   }
 }
 @media screen and (min-width: 1200px) {
+  .hero {
+    padding: 200px 0;
+  }
   .hero {
     background-image: -webkit-gradient(linear, left top, right top, from(rgba(47, 48, 58, 0.4)), to(rgba(47, 48, 58, 0.4))), url(../images/bg-hero-desktop.jpg);
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/bg-hero-desktop.jpg);

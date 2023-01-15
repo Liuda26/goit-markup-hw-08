@@ -1021,6 +1021,7 @@ body.modal-open {
 @media screen and (min-width: 768px) {
   .footer-field__form {
     margin-bottom: 20px;
+    width: 450px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -1488,6 +1489,12 @@ textarea {
 @media screen and (min-width: 768px) {
   .gallery {
     max-width: 354px;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .gallery {
+    max-width: 370px;
     width: 100%;
   }
 }

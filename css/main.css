@@ -164,6 +164,11 @@ body.modal-open {
   letter-spacing: 0.02em;
   color: #2196F3;
 }
+@media screen and (max-width: 439px) {
+  .mobile-contacts__tel {
+    font-size: 26px;
+  }
+}
 
 .mobile-contacts__mail {
   text-decoration: none;
@@ -178,6 +183,8 @@ body.modal-open {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
   margin-top: 0;
   margin-bottom: 0;
@@ -191,6 +198,11 @@ body.modal-open {
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: #2196F3;
+}
+@media screen and (max-width: 439px) {
+  .mobile-social__link {
+    font-size: 10px;
+  }
 }
 
 .mobile-social__item:not(:last-child) {

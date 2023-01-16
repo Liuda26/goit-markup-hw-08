@@ -87,6 +87,10 @@
     letter-spacing: 0.02em;
 
     color: $accent-color;
+
+    @media screen and (max-width: 439px) {
+        font-size: 26px; 
+    }
 }
 
 .mobile-contacts__mail {
@@ -102,6 +106,7 @@
 
 .mobile-social {
     display: flex;
+    flex-wrap: wrap;
     list-style: none;
 
     margin-top: 0;
@@ -111,17 +116,16 @@
 
 .mobile-social__link {
     text-decoration: none;
-
-    // margin: 0 10px;
-
-    
-
     font-weight: 500;
     font-size: 18px;
     line-height: 1.22;
     letter-spacing: 0.02em;
 
     color: $accent-color;
+
+    @media screen and (max-width: 439px) {
+        font-size: 10px; 
+    }
 }
 
 .mobile-social__item:not(:last-child) {

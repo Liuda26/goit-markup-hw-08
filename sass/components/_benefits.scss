@@ -1,7 +1,7 @@
 .benefits {
     list-style: none;
     padding-left: 0;
-
+  
     @media screen and (min-width: 768px) {
         list-style: none;
         display: flex;
@@ -9,7 +9,6 @@
         gap: 30px;
         padding: 0;
         justify-content: center;
-
     }
 }
 
@@ -20,6 +19,12 @@
     
     @media screen and (min-width: 1200px){
         width: 270px;       
+    } 
+}
+
+.benefits__item:not(:last-child) {
+    @media screen and (min-width: 320px) {
+        margin-bottom: 30px;
     } 
 }
 
@@ -42,11 +47,9 @@
     line-height: 1.14;
     letter-spacing: 0.03em;
     
-
     @media screen and (max-width: 767px) {
         text-align: center;
     }
-
 }
 
 .benefits__text {

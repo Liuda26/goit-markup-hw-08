@@ -67,7 +67,6 @@
     }
 }
 
-
 .footer-list__item-link {
     color: $secondary-text-foot;
     text-decoration: none;
@@ -81,10 +80,6 @@
 }
 
 .box-second {
-    @media screen and (min-width: 768px) {
-        margin-left: 165px;
-    }
-
     @media screen and (max-width: 1199px) {
         margin-bottom: 60px;
     }
@@ -92,7 +87,6 @@
     @media screen and (min-width: 1200px) {
         margin-left: 93px;
     }
-
 }
 
 .footer-title {
@@ -104,7 +98,6 @@
     text-transform: uppercase;
     color: $secondary-color;
     
-
     @media screen and (max-width: 1199px) {
         text-align: center;
     }
@@ -119,8 +112,7 @@
     @media screen and (max-width: 1199px) {
         align-items: center;
         justify-content: center;
-    }
-    
+    } 
 }
 
 .footer-social__link {
@@ -216,7 +208,6 @@
     &:focus {
         background-color: $hero-btn-hover;
     }
-
 
     @media screen and (min-width: 1200px) {
         margin-left: 12px;
